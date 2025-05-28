@@ -7,7 +7,17 @@
 
 import Foundation
 import Starscream
-import WebSocketClientCore
+import WebSocketClient
+
+// Enforce minimum Swift version for all platforms and build systems.
+#if swift(<5.9)
+    #error("StarscreamWebSocketBackend doesn't support Swift versions below 5.9")
+#endif
+
+public enum StarscreamWebSocketBackendInfo: Sendable {
+    /// Current StarscreamWebSocketBackend version.
+    public static let version = "0.0.1"
+}
 
 public final class StarscreamWebSocketBackend: @unchecked Sendable {
     private var webSocket: WebSocket?
@@ -90,7 +100,7 @@ public extension StarscreamWebSocketBackend {
 }
 
 extension StarscreamWebSocketBackend: WebSocketDelegate {
-    public func didReceive(event: WebSocketEvent, client _: WebSocketClient) {
+    public func didReceive(event: WebSocketEvent, client _: Starscream.WebSocketClient) {
         switch event {
         case let .connected(dictionary):
             didReceive(event: .connected(dictionary))

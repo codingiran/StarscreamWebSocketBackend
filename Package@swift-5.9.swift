@@ -41,5 +41,5 @@ let package = Package(
             dependencies: ["StarscreamWebSocketBackend"]
         ),
     ],
-    swiftLanguageModes: [.v6]
+    swiftLanguageVersions: [.v5]
 )

@@ -7,7 +7,7 @@
 
 import Foundation
 import Starscream
-import WebSocketClientCore
+import WebSocketClient
 
 extension Starscream.CloseCode {
     init(closeCode: WebSocketClientCloseCode) {

@@ -1,5 +1,5 @@
 {
-  "originHash" : "351494207dfa0b2e9171a1d8a5000a572cfbd1496ac7c915ee29d327213248c7",
+  "originHash" : "b8c1b2ce8a7a48f15a758159db5d4a7f2ae2d2504f0521896df92a9b4f985139",
   "pins" : [
     {
       "identity" : "asynctimer",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/codingiran/WebSocketClient.git",
       "state" : {
-        "revision" : "a8f758002736997ea59e44acdb7f239f49e4b542",
-        "version" : "0.0.1"
+        "revision" : "1655404756b7acec20b37cdd57681bdc8d62bccc",
+        "version" : "0.0.2"
       }
     }
   ],
