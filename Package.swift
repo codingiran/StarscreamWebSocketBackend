@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "StarscreamWebSocketBackend",
             dependencies: [
-                "WebSocketCore",
+                "WebSocketClientCore",
             ]
         ),
         .testTarget(

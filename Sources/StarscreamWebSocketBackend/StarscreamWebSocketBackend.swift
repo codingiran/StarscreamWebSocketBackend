@@ -7,11 +7,7 @@
 
 import Foundation
 import Starscream
-#if swift(>=6.0)
-    public import WebSocketCore
-#else
-    @_exported import WebSocketCore
-#endif
+import WebSocketClientCore
 
 public final class StarscreamWebSocketBackend: @unchecked Sendable {
     private var webSocket: WebSocket?
