@@ -1,0 +1,42 @@
+{
+  "originHash" : "351494207dfa0b2e9171a1d8a5000a572cfbd1496ac7c915ee29d327213248c7",
+  "pins" : [
+    {
+      "identity" : "asynctimer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/codingiran/AsyncTimer.git",
+      "state" : {
+        "revision" : "5ec0ec37ab8058bfe946d9fccef15d0404199024",
+        "version" : "0.0.4"
+      }
+    },
+    {
+      "identity" : "networkpathmonitor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/codingiran/NetworkPathMonitor.git",
+      "state" : {
+        "revision" : "2425add3478838f9998fe2b185ece578c105bbba",
+        "version" : "0.0.3"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream.git",
+      "state" : {
+        "revision" : "c6bfd1af48efcc9a9ad203665db12375ba6b145a",
+        "version" : "4.0.8"
+      }
+    },
+    {
+      "identity" : "websocketclient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/codingiran/WebSocketClient.git",
+      "state" : {
+        "revision" : "a8f758002736997ea59e44acdb7f239f49e4b542",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
